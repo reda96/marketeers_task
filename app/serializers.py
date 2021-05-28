@@ -5,9 +5,9 @@ from .models import Table
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 class TableSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Table
-        fields = ('number')
+  class Meta:
+    model = Table
+    fields = ('number',)
 
 
 
